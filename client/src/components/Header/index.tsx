@@ -1,4 +1,4 @@
-import { Airplane, List, MagnifyingGlass, UserSquare } from "phosphor-react";
+import { Airplane, List, MagnifyingGlass, UserCircle } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 import { Guests, HeaderContainer, SearchBar, SearchButton, Separator, UserField } from "./styles";
 
@@ -21,7 +21,7 @@ export function Header() {
       </SearchBar>
       <UserField>
         <List size={28} color="#77767b" weight="fill" />
-        <UserSquare size={32} color="#77767b" weight="fill" />
+        <UserCircle size={32} color="#77767b" weight="fill" />
       </UserField>
     </HeaderContainer>
   )
