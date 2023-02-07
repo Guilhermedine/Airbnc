@@ -18,13 +18,13 @@ export const HeaderContainer = styled.header`
     p {
       margin-left: 0.5rem;
       color: ${props => props.theme['red-200']};
-      font-size: 1rem
+      font-size: 1.2rem;
     }   
   } 
 `
 
 export const Guests = styled.div`
-opacity: 0.5;
+  opacity: 0.5;
 `
 
 export const SearchBar = styled.div`
@@ -36,6 +36,7 @@ export const SearchBar = styled.div`
   padding: 0.25rem 1rem;
   cursor: pointer;
   font-size: 0.875rem;
+  height: 3rem;
 `
 
 export const SearchButton = styled.button`
@@ -54,6 +55,7 @@ export const UserField = styled.div`
   gap: 1rem;
   padding: 0.25rem 1rem;
   cursor: pointer;
+  height: 3rem;
 `
 
 export const Separator = styled.div`

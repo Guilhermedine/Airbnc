@@ -6,7 +6,7 @@ export function Header() {
   return (
     <HeaderContainer>
       <NavLink to="/" title="Airbnc">
-        <Airplane size={40} color={"#f5426f"} />
+        <Airplane size={48} color={"#f5426f"} />
         <p>airbnc</p>
       </NavLink>
       <SearchBar>
@@ -21,7 +21,9 @@ export function Header() {
       </SearchBar>
       <UserField>
         <List size={28} color="#77767b" weight="fill" />
-        <UserCircle size={32} color="#77767b" weight="fill" />
+        <NavLink to="/login" title="User Login">
+          <UserCircle size={32} color="#77767b" weight="fill" />
+        </NavLink>
       </UserField>
     </HeaderContainer>
   )
