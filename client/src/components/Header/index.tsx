@@ -1,6 +1,6 @@
 import { Airplane, List, MagnifyingGlass, UserSquare } from "phosphor-react";
 import { NavLink } from "react-router-dom";
-import { HeaderContainer, Hospedes, SearchBar, SearchButton, Separator, UserField } from "./styles";
+import { Guests, HeaderContainer, SearchBar, SearchButton, Separator, UserField } from "./styles";
 
 export function Header() {
   return (
@@ -14,7 +14,7 @@ export function Header() {
         <Separator />
         <div>Qualquer semana</div>
         <Separator />
-        <Hospedes>Hóspedes?</Hospedes>
+        <Guests>Hóspedes?</Guests>
         <SearchButton>
           <MagnifyingGlass size={20} color={"#ffffff"} weight={"bold"} />
         </SearchButton>

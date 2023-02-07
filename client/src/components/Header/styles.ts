@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const HeaderContainer = styled.header`
-  padding: 4;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
@@ -23,7 +23,7 @@ export const HeaderContainer = styled.header`
   } 
 `
 
-export const Hospedes = styled.div`
+export const Guests = styled.div`
 opacity: 0.5;
 `
 
@@ -35,6 +35,7 @@ export const SearchBar = styled.div`
   gap: 1rem;
   padding: 0.25rem 1rem;
   cursor: pointer;
+  font-size: 0.875rem;
 `
 
 export const SearchButton = styled.button`
